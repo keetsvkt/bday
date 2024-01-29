@@ -72,11 +72,11 @@ body {
 .usImg {
   display: flex;
   justify-content: center;
-  top: 100px;
+  top: 120px;
   left: 0px;
   position: absolute;
   width: 420px;
-  height: 400px;
+  height: 380px;
   z-index: 1;
 }
 .happy {
