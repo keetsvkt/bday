@@ -34,8 +34,15 @@
         </div>
       </div>
     </div>
-    <audio controls loop>
-      <source src="happy-birthday.mp3" type="audio/mpeg" />
-    </audio>
+    var audio = document.createElement('audio');
+    var source = document.createElement('source');
+    var media = document.getElementById('media');
+    media.appendChild(audio);
+    audio.appendChild(source);
+    source.setAttribute('src', 'happy-birthday.mp3');
+    source.setAttribute('type', 'audio/mpeg');
+    audio.setAttribute('controls', 'loop');
+
+<section id="media"></section>
   </body>
 </html>
