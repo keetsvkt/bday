@@ -71,7 +71,7 @@ body {
 
 .usImg {
   display: flex;
-  justify-content: bottom;
+  justify-content: center;
   top: 150px;
   left: 0px;
   position: absolute;
